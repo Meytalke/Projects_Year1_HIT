@@ -3,18 +3,18 @@ using namespace std;
 class Polynomial
 {
 private:
-	double* _coeff; //מערך של מקדמים
+	double* _coeff; 
 	int _dagree;
 	static int MaxDegree;
 public:
-	//קונסטרקטוקים
+	//ֳ·ֳ¥ֳ°ֳ±ֳ¨ֳ¸ֳ·ֳ¨ֳ¥ֳ·ֳ©ֳ­
 	Polynomial();
 	Polynomial(int);
 	Polynomial(double[], int);
-	Polynomial(const Polynomial&);//קופי קונסטרקטור
+	Polynomial(const Polynomial&);
 	~Polynomial();
 
-	//פונקציות
+	//ֳ´ֳ¥ֳ°ֳ·ֳ¶ֳ©ֳ¥ֳ÷
 	double getCoeff(int) const;
 	static int getMaxDegree();
 	Polynomial &setCoeff(int deg, double c);
