@@ -7,13 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// --------------------------- //
-//
-//	Assigned by:
-//		Noam_Seifer_300406964
-//		Meytal_Keren _322710534
-//
-// --------------------------- //
 
 // structs and function declarations section:
 typedef struct rectangle {
