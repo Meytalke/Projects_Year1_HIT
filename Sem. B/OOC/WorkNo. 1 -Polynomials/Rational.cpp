@@ -5,7 +5,7 @@ using namespace std;
 
 Rational::Rational(): Numerator(), Denominator(0)
 {
-	Denominator.setCoeff(0, 1);//רוצים לפי התמונה שהמכנה יהיה 1
+	Denominator.setCoeff(0, 1);
 }
 
 Rational::Rational(const Polynomial& p1, const Polynomial& p2)
