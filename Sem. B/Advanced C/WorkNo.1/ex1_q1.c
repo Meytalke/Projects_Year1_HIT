@@ -8,13 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// --------------------------- //
-//
-//	Assigned by:
-//		Noam_Seifer_300406964
-//		Meytal_Keren _322710534
-//
-// --------------------------- //
 
 // function declarations section:
 int* scanArray(int*);
